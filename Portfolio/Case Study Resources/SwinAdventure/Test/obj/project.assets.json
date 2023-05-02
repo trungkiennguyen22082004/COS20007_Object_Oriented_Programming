@@ -3979,11 +3979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\Test\\Test.csproj",
+      "projectUniqueName": "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\Test\\Test.csproj",
+      "projectPath": "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\Test\\obj\\",
+      "outputPath": "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4000,8 +4000,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj": {
-              "projectPath": "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj"
+            "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj": {
+              "projectPath": "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj"
             }
           }
         }
@@ -4053,7 +4053,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-04-27T14:44:42.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="JrucqwQXrvGardJ2VsoN" version="21.2.3" type="device">
+  <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
+    <mxGraphModel dx="1077" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oqRxPT11rTY_lSROXvNe-93" value="DataAnalyser" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="45" y="90" width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="oqRxPT11rTY_lSROXvNe-94" value="-&amp;nbsp; _numbers: List&amp;lt;int&amp;gt;&lt;br&gt;-&amp;nbsp; _strategy: SummaryStrategy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oqRxPT11rTY_lSROXvNe-93" vertex="1">
+          <mxGeometry y="26" width="350" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="oqRxPT11rTY_lSROXvNe-95" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="oqRxPT11rTY_lSROXvNe-93" vertex="1">
+          <mxGeometry y="80" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oqRxPT11rTY_lSROXvNe-96" value="+ DataAnalyser()&lt;br&gt;+ DataAnalyser(List&amp;lt;int&amp;gt; numbers)&lt;br&gt;+ DataAnalyser(SummaryStrategy strategy)&lt;br&gt;+ DataAnalyser(SummaryStrategy strategy, List&amp;lt;int&amp;gt; numbers)&lt;br&gt;&lt;br&gt;+ Strategy : SummaryStrategy &amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;+ AddNumber(int num)&lt;br&gt;+ Summerise(string typeOfSummary)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oqRxPT11rTY_lSROXvNe-93" vertex="1">
+          <mxGeometry y="100" width="350" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oqRxPT11rTY_lSROXvNe-97" value="AverageSummary" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="590" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oqRxPT11rTY_lSROXvNe-99" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="oqRxPT11rTY_lSROXvNe-97" vertex="1">
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="oqRxPT11rTY_lSROXvNe-100" value="+ AverageSummary()&lt;br&gt;&lt;br&gt;-&amp;nbsp; Average(List&amp;lt;int&amp;gt; numbers) : float&lt;br&gt;&lt;br&gt;+ PrintSummary(List&amp;lt;int&amp;gt; numbers) &amp;lt;&amp;lt;override&amp;gt;&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oqRxPT11rTY_lSROXvNe-97" vertex="1">
+          <mxGeometry y="34" width="280" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="T0YOyjKoBKb6iO9d_zDy-1" value="MinMaxSummary" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="590" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T0YOyjKoBKb6iO9d_zDy-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="T0YOyjKoBKb6iO9d_zDy-1" vertex="1">
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="T0YOyjKoBKb6iO9d_zDy-3" value="+ MinMaxSummary()&lt;br&gt;&lt;br&gt;-&amp;nbsp; Minimum(List&amp;lt;int&amp;gt; numbers) : int&lt;br&gt;-&amp;nbsp; Maximum(List&amp;lt;int&amp;gt; numbers) : int&lt;br&gt;&lt;br&gt;+ PrintSummary(List&amp;lt;int&amp;gt; numbers)&amp;nbsp;&amp;lt;&amp;lt;override&amp;gt;&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="T0YOyjKoBKb6iO9d_zDy-1" vertex="1">
+          <mxGeometry y="34" width="280" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="T0YOyjKoBKb6iO9d_zDy-4" value="SummaryStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="430" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T0YOyjKoBKb6iO9d_zDy-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="T0YOyjKoBKb6iO9d_zDy-4" vertex="1">
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="T0YOyjKoBKb6iO9d_zDy-6" value="+ SummaryStrategy()&lt;br&gt;&lt;br&gt;+ PrintSummary(List&amp;lt;int&amp;gt; numbers) &amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="T0YOyjKoBKb6iO9d_zDy-4" vertex="1">
+          <mxGeometry y="34" width="280" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="T0YOyjKoBKb6iO9d_zDy-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" source="oqRxPT11rTY_lSROXvNe-96" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="370" as="sourcePoint" />
+            <mxPoint x="220" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T0YOyjKoBKb6iO9d_zDy-12" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;entryX=0.286;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="T0YOyjKoBKb6iO9d_zDy-6" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="600" as="sourcePoint" />
+            <mxPoint x="160" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T0YOyjKoBKb6iO9d_zDy-13" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;entryX=0.712;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="T0YOyjKoBKb6iO9d_zDy-6" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="600" as="sourcePoint" />
+            <mxPoint x="520" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

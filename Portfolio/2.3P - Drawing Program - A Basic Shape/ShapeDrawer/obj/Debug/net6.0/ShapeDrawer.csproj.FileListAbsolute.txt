@@ -1,0 +1,15 @@
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\bin\Debug\net6.0\ShapeDrawer.exe
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\bin\Debug\net6.0\ShapeDrawer.deps.json
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\bin\Debug\net6.0\ShapeDrawer.runtimeconfig.json
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\bin\Debug\net6.0\ShapeDrawer.dll
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\bin\Debug\net6.0\ShapeDrawer.pdb
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\obj\Debug\net6.0\ShapeDrawer.csproj.AssemblyReference.cache
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\obj\Debug\net6.0\ShapeDrawer.GeneratedMSBuildEditorConfig.editorconfig
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\obj\Debug\net6.0\ShapeDrawer.AssemblyInfoInputs.cache
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\obj\Debug\net6.0\ShapeDrawer.AssemblyInfo.cs
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\obj\Debug\net6.0\ShapeDrawer.csproj.CoreCompileInputs.cache
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\obj\Debug\net6.0\ShapeDrawer.dll
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\obj\Debug\net6.0\refint\ShapeDrawer.dll
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\obj\Debug\net6.0\ShapeDrawer.pdb
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\obj\Debug\net6.0\ShapeDrawer.genruntimeconfig.cache
+E:\COS20017_Object_Oriented_Programming\Portfolio\2.3P - Drawing Program - A Basic Shape\ShapeDrawer\obj\Debug\net6.0\ref\ShapeDrawer.dll

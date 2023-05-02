@@ -1,0 +1,15 @@
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.exe
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.deps.json
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.runtimeconfig.json
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.dll
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.pdb
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.AssemblyReference.cache
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfoInputs.cache
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfo.cs
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CoreCompileInputs.cache
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.dll
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\obj\Debug\net6.0\refint\HelloWorld.dll
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
+E:\COS20017_Object_Oriented_Programming\Portfolio\1.2P - Object Oriented Hello World\HelloWorld\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll

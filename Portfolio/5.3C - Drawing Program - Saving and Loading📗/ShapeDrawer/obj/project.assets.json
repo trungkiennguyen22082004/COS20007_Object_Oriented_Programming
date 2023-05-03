@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\5.3C - Drawing Program - Saving and Loading\\ShapeDrawer\\ShapeDrawer.csproj",
+      "projectUniqueName": "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\5.3C - Drawing Program - Saving and Loading📗\\ShapeDrawer\\ShapeDrawer.csproj",
       "projectName": "ShapeDrawer",
-      "projectPath": "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\5.3C - Drawing Program - Saving and Loading\\ShapeDrawer\\ShapeDrawer.csproj",
+      "projectPath": "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\5.3C - Drawing Program - Saving and Loading📗\\ShapeDrawer\\ShapeDrawer.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\5.3C - Drawing Program - Saving and Loading\\ShapeDrawer\\obj\\",
+      "outputPath": "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\5.3C - Drawing Program - Saving and Loading📗\\ShapeDrawer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using SplashKitSDK;
 
 namespace ShapeDrawer
@@ -62,18 +62,20 @@ namespace ShapeDrawer
                 if ((SplashKit.KeyTyped(KeyCode.BackspaceKey)) || (SplashKit.KeyTyped(KeyCode.DeleteKey)))
                 {
                     foreach (Shape shape in myDrawing.SelectedShapes)
+                    {
                         myDrawing.RemoveShape(shape);
+                    }
                 }
 
                 if (SplashKit.KeyDown(KeyCode.SKey))
                 {
-                    myDrawing.Save("E:/COS20017_Object_Oriented_Programming/Portfolio/5.3C - Drawing Program - Saving and Loading/TestDrawing.txt");
+                    myDrawing.Save("E:/COS20007_Object_Oriented_Programming/Portfolio/5.3C - Drawing Program - Saving and Loading📗/TestDrawing.txt");
                 }
                 if (SplashKit.KeyDown(KeyCode.OKey))
                 {
                     try
                     {
-                        myDrawing.Load("E:/COS20017_Object_Oriented_Programming/Portfolio/5.3C - Drawing Program - Saving and Loading/TestDrawing.txt");
+                        myDrawing.Load("E:/COS20007_Object_Oriented_Programming/Portfolio/5.3C - Drawing Program - Saving and Loading📗/TestDrawing.txt");
                     }
                     catch (Exception e)
                     {

@@ -18,7 +18,7 @@ namespace ShapeDrawer
             Y2 = endY;
         }
 
-        public MyLine() : this(Color.Red, 0, 0, 100, 100)
+        public MyLine() : this(Color.Red, 0, 0, 0, 0)
         {
         }
 
@@ -49,7 +49,9 @@ namespace ShapeDrawer
         public override void Draw() 
         {
             if (Selected)
+            {
                 DrawOutline();
+            }
 
             // By default, the start point (X, Y) will be the coordinates of the mouse when clicking, and the end point (X2, Y2) will be (0, 0)
             SplashKit.DrawLine(Color, X, Y, X2, Y2);

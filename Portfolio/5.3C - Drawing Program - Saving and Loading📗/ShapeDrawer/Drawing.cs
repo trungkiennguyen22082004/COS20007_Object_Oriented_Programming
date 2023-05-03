@@ -27,7 +27,9 @@ namespace ShapeDrawer
                 foreach (Shape shape in _shapes)
                 {
                     if (shape.Selected)
+                    { 
                         selectedShapes.Add(shape);
+                    }
                 }
                 return selectedShapes;
             }
@@ -56,16 +58,22 @@ namespace ShapeDrawer
             SplashKit.ClearScreen(_background);
 
             foreach (Shape shape in _shapes)
+            {
                 shape.Draw();
+            }
         }
         public void SelectedShapesAt(Point2D point)
         {
             foreach (Shape shape in _shapes)
             {
                 if (shape.IsAt(point))
+                {
                     shape.Selected = true;
-                else
-                    shape.Selected = false;
+                }
+                // else
+                // {
+                //     shape.Selected = false;
+                // }
             }
         }
 
@@ -87,7 +95,9 @@ namespace ShapeDrawer
                 writer.WriteLine(ShapeCount);
 
                 foreach (Shape shape in _shapes)
+                {
                     shape.SaveTo(writer);
+                }
             }
             finally
             {

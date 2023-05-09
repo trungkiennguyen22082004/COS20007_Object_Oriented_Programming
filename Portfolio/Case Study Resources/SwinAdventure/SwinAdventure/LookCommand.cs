@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SwinAdventure
+﻿namespace SwinAdventure
 {
     public class LookCommand : Command
     {

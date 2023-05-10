@@ -11,7 +11,8 @@ module Clock
                 puts(clock.time)
 
                 sleep(1)
-                system("clear") || system("cls")
+
+                system("clear") || system("cls")              # This line is to clear screen 
                 index += 1
 
                 if (index >= 3600)

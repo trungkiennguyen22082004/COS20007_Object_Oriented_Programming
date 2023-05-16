@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj",
+      "projectUniqueName": "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\7.2C - Case Study - Iteration 6 - Locations📗\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj",
       "projectName": "SwinAdventure",
-      "projectPath": "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj",
+      "projectPath": "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\7.2C - Case Study - Iteration 6 - Locations📗\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\Case Study Resources\\SwinAdventure\\SwinAdventure\\obj\\",
+      "outputPath": "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\7.2C - Case Study - Iteration 6 - Locations📗\\SwinAdventure\\SwinAdventure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

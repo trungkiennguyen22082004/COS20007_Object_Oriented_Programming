@@ -11,7 +11,7 @@ namespace SwinAdventure
         public static void Main(string[] args) 
         {
             Player player = GetPlayerInfomation();
-            player.Location = new Location("a studio", "A small, beautiful and fully-furnished studio.");
+            player.Location = new Location(new string[] { "studio" }, "a studio", "A small, beautiful and fully-furnished studio.");
 
             Item sword = new Item(new string[] { "sword", "bronze" }, "a bronze sword", "This is a bronze sword");
             Item shovel = new Item(new string[] { "shovel" }, "a shovel", "This is a shovel");

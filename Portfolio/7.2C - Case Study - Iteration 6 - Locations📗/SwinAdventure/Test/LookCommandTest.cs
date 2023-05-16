@@ -98,7 +98,7 @@ namespace SwinAdventure
         [Test]
         public void TestLookLocation()
         {
-            _testPlayer.Location = new Location("a studio", "A small, beautiful and fully-furnished studio.");
+            _testPlayer.Location = new Location(new string[] { "studio" }, "a studio", "A small, beautiful and fully-furnished studio.");
             _testPlayer.Location.Inventory.Put(_sword);
 
             Assert.AreEqual(_testLookCommand.Execute(_testPlayer, new string[] { "look" }), 

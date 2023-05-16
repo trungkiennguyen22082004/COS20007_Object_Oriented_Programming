@@ -15,7 +15,7 @@ namespace SwinAdventure
         public void SetUp()
         {
             _testPlayer = new Player("Trung Kien Nguyen", "I am the player");
-            _testLocation = new Location("a studio", "A small, beautiful and fully-furnished studio.");
+            _testLocation = new Location(new string[] { "studio" }, "a studio", "A small, beautiful and fully-furnished studio.");
 
             _sword = new Item(new string[] { "sword", "bronze" }, "a bronze sword", "This is a bronze sword");
             _shovel = new Item(new string[] { "shovel" }, "a shovel", "This is a shovel");
@@ -32,8 +32,9 @@ namespace SwinAdventure
         public void TestLocationLocateItself() 
         {
             Assert.AreEqual(_testLocation.Locate("room"), _testLocation);
-            Assert.AreEqual(_testLocation.Locate("here" +
-                ""), _testLocation);
+            Assert.AreEqual(_testLocation.Locate("here"), _testLocation);
+            Assert.AreEqual(_testLocation.Locate("studio"), _testLocation);
+
         }
 
         // Locations can locate items they have

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace SwinAdventure
 {
@@ -6,9 +7,12 @@ namespace SwinAdventure
     {
         private Inventory _inventory;
 
-        public Location(string name, string desc) : base(new string[] { "room", "here" }, name, desc)
+        public Location(string[] ids, string name, string desc) : base(ids, name, desc)
         {
             _inventory = new Inventory();
+
+            AddIdentifier("room");
+            AddIdentifier("here");
         }
 
         public GameObject Locate(string id)

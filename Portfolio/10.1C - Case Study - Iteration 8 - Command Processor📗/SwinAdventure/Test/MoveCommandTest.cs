@@ -27,8 +27,6 @@ namespace SwinAdventure
             _closetDoor = new Path(new string[] { "west", "w" }, "door", "The small door", _closet, _studio);
             _closetWindow = new Path(new string[] { "southwest", "sw" }, "window", "The large window", _closet, _garden);
 
-            _studioDoor2.Close();
-
             _studio.AddPath(_studioDoor1);
             _studio.AddPath(_studioDoor2);
             _studio.AddPath(_studioWindow);
@@ -78,12 +76,6 @@ namespace SwinAdventure
         {
             _testPlayer.Location = _studio;
 
-            // Path is closed
-            Assert.AreEqual("The path second door is closed", _testMoveCommand.Execute(_testPlayer, new string[] { "move", "south" }));
-
-            // and the player remains in the same location
-            Assert.AreEqual(_testPlayer.Location, _studio);
-
             // Path does not belongs to the current room (studio)
             _studio.AddPath(_closetWindow);
             Assert.AreEqual($"Could not move from {_closetDoor.StartingLocation.Name}.", _testMoveCommand.Execute(_testPlayer, new string[] { "move", "southwest" }));
@@ -98,23 +90,17 @@ namespace SwinAdventure
             Assert.AreEqual(_testPlayer.Location, _studio);
         }
 
-        [Test]
-        public void TestCouldNotFindPaths()
+        [TestCase("go west", "Could not find the west path.")]
+        [TestCase("move sw", "Could not find the sw path.")]
+        [TestCase("go gun", "Could not find the gun path.")]
+        public void TestCouldNotFindPaths(string input, string output)
         {
             _testPlayer.Location = _studio;
+            Item gun = new Item(new string[] { "gun" }, "a short gun", "This is a short gun");
+            _studio.Inventory.Put(gun);
 
-            // Location locates a GameObject that is not a Path
-            Item sword = new Item(new string[] { "sword" }, "a bronze sword", "This is a bronze sword");
-            _studio.Inventory.Put(sword);
-            Assert.AreEqual($"Could not find {sword.Name}.", _testMoveCommand.Execute(_testPlayer, new string[] { "move", "sword" }));
-
-            // and the player remains in the same location
-            Assert.AreEqual(_testPlayer.Location, _studio);
-
-            // Location locates nothing
-            Assert.AreEqual("Could not find the west path.", _testMoveCommand.Execute(_testPlayer, new string[] { "go", "west" }));
-            Assert.AreEqual("Could not find the southwest path.", _testMoveCommand.Execute(_testPlayer, new string[] { "go", "southwest" }));
-            Assert.AreEqual("Could not find the gun path.", _testMoveCommand.Execute(_testPlayer, new string[] { "go", "gun" }));
+            // Location cannot find path nothing
+            Assert.AreEqual(output, _testMoveCommand.Execute(_testPlayer, input.Split()));
 
             // and the player remains in the same location
             Assert.AreEqual(_testPlayer.Location, _studio);

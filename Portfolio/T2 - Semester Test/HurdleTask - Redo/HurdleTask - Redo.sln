@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HurdleTask - Redo", "HurdleTask - Redo\HurdleTask - Redo.csproj", "{D007C4B7-40E0-411A-B499-3F9B39DBF124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D007C4B7-40E0-411A-B499-3F9B39DBF124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D007C4B7-40E0-411A-B499-3F9B39DBF124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D007C4B7-40E0-411A-B499-3F9B39DBF124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D007C4B7-40E0-411A-B499-3F9B39DBF124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E1E036C-8894-421C-B8A8-9AB90DDD9D87}
+	EndGlobalSection
+EndGlobal

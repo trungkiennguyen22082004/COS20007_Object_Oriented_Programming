@@ -72,25 +72,28 @@
         }
 
         [Test]
-        public void TestLocationLocatePaths()
+        public void TestLocationFindPaths()
         {
             // Test if there are two doors in the test room
-            Assert.AreEqual(_testLocation.Locate("north"), _door1);
-            Assert.AreEqual(_testLocation.Locate("se"), _door2);
+            Assert.AreEqual(_testLocation.FindPath("north"), _door1);
+            Assert.AreEqual(_testLocation.FindPath("se"), _door2);
 
             // Test if there is no way to the east of the test room
-            Assert.AreEqual(_testLocation.Locate("east"), null);
+            Assert.AreEqual(_testLocation.FindPath("east"), null);
+
+            // Test if there is no way of sword of the test room
+            Assert.AreEqual(_testLocation.FindPath("sword"), null);
         }
 
         [Test]
         public void TestLocationAddsPath()
         {
             // Test if there is no way to the east of the test room
-            Assert.AreEqual(_testLocation.Locate("east"), null);
+            Assert.AreEqual(_testLocation.FindPath("east"), null);
 
             // Adding window to the east of the test room
             _testLocation.AddPath(_window);
-            Assert.AreEqual(_testLocation.Locate("east"), _window);
+            Assert.AreEqual(_testLocation.FindPath("east"), _window);
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ELTwxVMsAISlvB8/m+O6iAhrDRf4A/ybkbFofqVHXVHh3VAShSczpCnAwKH+nCpEXXMq4S11S3RRi19ZXKUVXg==",
+  "dgSpecHash": "nAfT6oZ1kSKeWMJ2fNG2avewYE+a5AjyzF63gnwmBlh3wMUVrQpvS3DyQsVxLLu8agnl11dEKTNntDbUeh6qCg==",
   "success": true,
-  "projectFilePath": "E:\\COS20017_Object_Oriented_Programming\\Portfolio\\4.2P - Case Study - Iteration 2 - Players Items and Inventory\\SwinAdventure\\Test\\Test.csproj",
+  "projectFilePath": "E:\\COS20007_Object_Oriented_Programming\\Portfolio\\4.2P - Case Study - Iteration 2 - Players Items and Inventory📕\\SwinAdventure\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

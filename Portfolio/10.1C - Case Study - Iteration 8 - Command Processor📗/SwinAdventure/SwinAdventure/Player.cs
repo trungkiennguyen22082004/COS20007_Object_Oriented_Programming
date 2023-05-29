@@ -3,7 +3,7 @@
     public class Player : GameObject, IHaveInventory
     {
         private Inventory _inventory;
-        private Location? _location;
+        private Location _location;
 
         public Player(string name, string desc) : base( new string[] { "me", "inventory", "inv" }, name, desc) 
         {
@@ -51,7 +51,7 @@
         }
 
         // Players have a location.
-        public Location? Location
+        public Location Location
         {
             get 
             {
@@ -61,11 +61,6 @@
             {
                 _location = value;
             }
-        }
-
-        public void Move(Path path)
-        {
-            this.Location = path.EndingLocation;
         }
     }
 }

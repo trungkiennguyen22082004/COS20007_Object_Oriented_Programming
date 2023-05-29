@@ -23,14 +23,6 @@ namespace SwinAdventure
                 return this;
             }
 
-            foreach (Path path in _paths)
-            {
-                if (path.AreYou(id))
-                {
-                    return path;
-                }
-            }
-
             return _inventory.Fetch(id);
         }
 
@@ -55,6 +47,17 @@ namespace SwinAdventure
         public void AddPath(Path path) 
         {
             _paths.Add(path);
+        }
+        public Path FindPath(string id)
+        {
+            foreach (Path path in _paths) 
+            {
+                if (path.AreYou(id))
+                {
+                    return path;
+                }
+            }
+            return null;
         }
 
         public string PathList

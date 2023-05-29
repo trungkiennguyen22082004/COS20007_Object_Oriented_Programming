@@ -25,9 +25,6 @@
             Path gardenDoor = new Path(new string[] { "north", "n" }, "door", "The large door", garden, studio);
             Path gardenWindow = new Path(new string[] { "northeast ", "ne" }, "window", "The large window", garden, closet);
 
-            studioDoor2.Close();
-            gardenDoor.Close();
-
             studio.Inventory.Put(shovel);
             studio.AddPath(studioDoor1);
             studio.AddPath(studioDoor2);

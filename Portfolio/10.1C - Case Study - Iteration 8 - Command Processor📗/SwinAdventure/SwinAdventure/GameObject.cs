@@ -19,7 +19,7 @@ namespace SwinAdventure
         }
 
         public virtual string FullDescription
-        { 
+        {
             get { return _description; }
         }
 
